@@ -6,8 +6,8 @@ export default function Home() {
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text style={{ fontSize: 44 }}>Home page</Text>
 
-      <Link href="/settings" asChild>
-        <Button title="Go to settings" />
+      <Link href="/product/123" asChild>
+        <Button title="Go to product" />
       </Link>
     </View>
   );
